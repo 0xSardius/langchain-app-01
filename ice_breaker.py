@@ -31,4 +31,4 @@ if __name__ == "__main__":
 
     res = chain.invoke(input={"information": information})
 
-    print(res)
+    print(res.content)
